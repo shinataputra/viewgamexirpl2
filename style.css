@@ -1,0 +1,70 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #ddd;
+}
+
+.nav{
+    background-color: pink;
+    display: flex;
+    padding: 15px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.list{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:80vh;
+    gap: 20px;
+}
+.judul{
+    font-size: 24px;
+    font-weight: bold;
+}
+.kotak{
+    background-color: white;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    padding: 20px;
+    height: 300px;
+}
+.img{
+    height: 100px;
+    width: 100px;
+    margin: 15px 0;
+}
+.button{
+    background-color: rgb(47, 255, 50);
+    color:white;
+    font-size: 18px;
+    padding: 5px 30px;
+    border-radius: 9px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+.link:hover{
+    color: black;
+}
